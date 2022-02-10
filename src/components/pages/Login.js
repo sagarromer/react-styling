@@ -1,8 +1,9 @@
 import React from 'react'
+import { PageLayout } from '../PageLayout'
 
 const Login = () => {
     return (
-        <div>login</div>
+        <PageLayout>login</PageLayout>
     )
 }
 
