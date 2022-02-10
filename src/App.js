@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import { GlobalStyle, defaultTheme, darkTheme } from "./utils";
 
 import { PrimaryButton , SecondaryButton, TertiaryButton } from './components/Buttons'
+import  Card  from './components/Card'
 
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
       <SecondaryButton>secondary</SecondaryButton>
       <TertiaryButton>tertiary</TertiaryButton>
       </div>
-      
+      <Card />
     </ThemeProvider>
   );
 }
