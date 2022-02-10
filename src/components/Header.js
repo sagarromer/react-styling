@@ -24,6 +24,17 @@ const Menu = styled.nav`
     box-sizing: border-box;
     border-bottom: 3px solid ${p => p.theme.secondaryColor};
     background: ${p => p.theme.bodyBackgroundColor};
+
+    @media(min-width: 768px){
+        display: flex;
+        background: none;
+        left: initial;
+        top: initial;
+        margin: auto 0 auto auto;
+        border-bottom: none;
+        position: relative;
+        width: initial;
+    }
 `;
 
 const Link = ({isActive, children, ...props}) => {
